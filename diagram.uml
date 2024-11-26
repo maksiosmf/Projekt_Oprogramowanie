@@ -1,0 +1,15 @@
+```mermaid
+classDiagram
+Product <|-- Category : Contains
+Category *-- Product : Aggregation
+Category : +int id
+Category : +str name
+Category : +List~Product~ products
+Category : +add_product(Product product)
+Category : +remove_product(int product_id)
+Product : +int id
+Product : +str name
+Product : +float price
+Product : +apply_discount(float discount)
+Product : +update_price(float new_price)
+```
