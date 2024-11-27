@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException
 from typing import List
-from ..models import Product
+from models import Product
 
 router = APIRouter(prefix="/products", tags=["Products"])
 
