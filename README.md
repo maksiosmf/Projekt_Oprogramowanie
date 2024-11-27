@@ -4,4 +4,4 @@
 ### pip install -r requirements.txt
 
 # Instrukcja uruchomienia:
-### uvicorn app.main:app --reload
+### uvicorn main:app --reload
